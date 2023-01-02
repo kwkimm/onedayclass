@@ -21,13 +21,13 @@
   width: 400vw;
   margin: auto;
   display: flex;
+  transition: all 1s;
 }
 
 .pic {
   /* border: 3px solid red; */
   width: 100%;
   height: 900px;
-  
 }
 
 .pic img {
@@ -44,6 +44,7 @@
   background: #fff;
   transform: translateY(-50%);
   cursor: pointer;
+  transition: all 1s;
 }
 
 .next {
@@ -54,4 +55,5 @@
   background: #fff;
   transform: translateY(-50%);
   cursor: pointer;
+  transition: all 1s;
 }
