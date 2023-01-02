@@ -2,6 +2,7 @@
 let no = 1;
 const wrap = $('.wrap');
 
+
 $('.prev').on('click', function() {
   
   if(no > 1){
@@ -20,3 +21,4 @@ $('.next').on('click', function() {
   }
 
 });
+

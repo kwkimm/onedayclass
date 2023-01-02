@@ -12,6 +12,7 @@
   /* border: 1px solid black; */
   width: 100vw;
   margin: auto;
+  margin-top: 15px;
   position: relative;
   overflow: hidden;
 }
@@ -41,19 +42,38 @@
   top: 50%;
   left: 20%;
   font-size: 50px;
-  background: #fff;
+  background-color:transparent;
   transform: translateY(-50%);
   cursor: pointer;
+}
+
+.prev:hover,
+.next:hover,
+.home:hover {
+  color: darkgray;
+  font-size: 70px;
+  background-color:transparent;
   transition: all 1s;
 }
+
 
 .next {
   position: absolute;
   top: 50%;
   right: 20%;
   font-size: 50px;
-  background: #fff;
+  background-color:transparent;
   transform: translateY(-50%);
   cursor: pointer;
-  transition: all 1s;
+}
+
+.home {
+  position: absolute;
+  bottom: 0;
+  right: 20%;
+  font-size: 60px;
+  color:blue;
+  background-color:transparent;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
