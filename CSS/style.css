@@ -8,15 +8,50 @@
   box-sizing: border-box;
 }
 
-.pic {
-  border: 1px solid black;
-  width: 800px;
-  height: 800px;
+.slide {
+  /* border: 1px solid black; */
+  width: 100vw;
   margin: auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.wrap {
+  /* border: 1px solid black; */
+  width: 400vw;
+  margin: auto;
+  display: flex;
+}
+
+.pic {
+  /* border: 3px solid red; */
+  width: 100%;
+  height: 900px;
+  
 }
 
 .pic img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+.prev {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  font-size: 50px;
+  background: #fff;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.next {
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  font-size: 50px;
+  background: #fff;
+  transform: translateY(-50%);
+  cursor: pointer;
 }
