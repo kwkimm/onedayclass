@@ -88,7 +88,53 @@ html {
   background: ivory;
   width: 900px;
   height: 500px;
-  padding-top: 10px;
+
+}
+
+.centerwrap {
+  /* border: 1px solid black; */
+  width: 800px;
+  height: 90%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.pic {
+  float: left;
+  display: inline;
+  /* border: 1px solid black; */
+  height: 200px;
+  width: 200px;
+  overflow: visible;
+}
+
+.pic img {
+  border: 1px solid lightgray;
+  border-radius: 50%;
+  width: 170px;
+}
+
+.name {
+  /* border: 1px solid black; */
+  font-size: 25px;
+}
+
+.intro {
+  /* border: 1px solid black; */
+  clear: both;
+  width: 600px;
+  font-size: 25px;
+}
+
+.mainfooter {
+  /* border: 1px solid black; */
+  padding-top: 50px;
+  font-size: 17px;
+  float: left;
+}
+
+.mainfooter::after {
+  clear: both;
 }
 
 ul {
