@@ -45,7 +45,6 @@ html {
   margin : 0 30px;
   margin-bottom: 18px;
   opacity: 0.7;
-  
 }
 
 .content {
@@ -72,6 +71,15 @@ html {
   width: 15%;
   height: 500px;
   background: ivory;
+}
+
+.rnav p {
+  font-size: 30px;
+}
+
+.other {
+  width: 70px;
+  margin: 10px;
 }
 
 .mov {
