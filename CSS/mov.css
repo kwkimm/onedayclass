@@ -1,0 +1,68 @@
+
+/* font-family: 'Jua', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Jua', sans-serif;
+}
+
+html {
+  background: url(../img/bg.jpg);
+  background-size: 700px;
+}
+
+/* div {
+  border: 1px solid black;
+} */
+
+.container {
+  /* border: 1px solid black; */
+  width: 80%;
+  height: 100vh;
+  margin: auto;
+}
+
+.content {
+  text-align: center;
+  margin-top: 220px;
+}
+
+.content div {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.content div::after {
+  content: '';
+  display: block;
+}
+
+.lnav,
+.rnav {
+  /* border: 1px solid black; */
+  text-align: center;
+  width: 20%;
+  height: 500px;
+  background: ivory;
+  
+}
+
+.mov {
+  width: 50%;
+}
+ul {
+  line-height: 50px;
+  margin-top: 20px;
+}
+li {
+  list-style: none;
+  font-size: 30px;
+}
+
+a {
+  text-decoration-line: none;
+  color: black;
+}
