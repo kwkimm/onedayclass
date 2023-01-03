@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>1DayClass</title>
   <link rel="shortcut icon" type="image/x-icon" href="/img/icon.png">
-  <link rel="stylesheet" href="/CSS/mov.css">
+  <link rel="stylesheet" href="/CSS/calendar.css">
   <script src="https://kit.fontawesome.com/75fd8fba08.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -29,7 +29,21 @@
       </div>
 
       <div class="center">
-        <iframe width="850" height="477" src="https://www.youtube.com/embed/UmjAFNqr7oU?autoplay=1&mute=1&loop=1" title="찐집사 김명철 수의사가 추천하는 내돈내산 고양이 꿀템 베스트3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>      </div>
+        <div class="centerwrap">
+          <div id="directionMap" class="inner">
+            <div id="mapArea"  style="width: 800px; height: 400px;">
+              <iframe src="http://ch.kjacademy.co.kr/front/academy/directions_daum_map.asp?domain=kjacademy.co.kr" width="100%" height="100%" scrolling="no" frameBorder="0"></iframe>
+            </div>
+            <div class="title cf">
+              <h1>
+                국제컴퓨터아트학원 천호캠퍼스<br>
+                서울시 강동구 천호대로 157길 14, 6층(천호동,나비빌딩)
+              </h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      
       <div class="rnav">
         <p><br>다른 클래스들<br>둘러보기<br><br></p>
         <a href=""><img class="other" src="/img/other_cooking.png" title="요리"></a>
@@ -40,11 +54,9 @@
       </div>
     </div>
 
-
-
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-  <script src="/JS/mov.js"></script>
+  <script src="/JS/calendar.js"></script>
 </body>
 </html>
