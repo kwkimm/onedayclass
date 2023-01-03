@@ -9,6 +9,11 @@
   font-family: 'Jua', sans-serif;
 }
 
+html {
+  background: url(../img/bg.jpg);
+  background-size: 700px;
+}
+
 .slide {
   /* border: 1px solid black; */
   width: 100vw;
