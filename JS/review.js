@@ -31,7 +31,7 @@ scrollbox.ready(function(){
   scrollbox.animate({scrollTop:(scrollbox.height())}, 15000);
 })
 
-upbtn.click(function(){
+upbtn.on('click', function(){
   scrollbox.animate({scrollTop : 0});
 });
 
