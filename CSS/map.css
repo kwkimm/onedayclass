@@ -59,7 +59,6 @@ html {
 }
 
 .content div {
-  /* display: inline-block; */
   vertical-align: middle;
 }
 
@@ -80,6 +79,10 @@ html {
 
 .rnav p {
   font-size: 30px;
+}
+
+.rnav div {
+  display: inline-block;
 }
 
 .outline {
