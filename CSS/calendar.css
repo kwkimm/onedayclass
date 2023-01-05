@@ -35,21 +35,21 @@ html {
   margin-bottom: 30px;
   text-align: center;
   line-height: 250px;
-  font-size: 100px;
+  font-size: 70px;
+}
+
+.header img {
+  border-radius: 25px;
+  width: 180px;
+  vertical-align: middle;
+  margin : 0 30px;
+  margin-bottom: 18px;
+  opacity: 0.7;
 }
 
 .headtext:hover {
   color: rgb(212, 180, 1);
   transition: all 0.5s;
-}
-
-.header img {
-  border-radius: 25px;
-  width: 230px;
-  vertical-align: middle;
-  margin : 0 30px;
-  margin-bottom: 18px;
-  opacity: 0.7;
 }
 
 .content {
@@ -82,9 +82,24 @@ html {
   font-size: 30px;
 }
 
+.outline {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.inline {
+  width: 60px;
+  height: 60px;
+}
+
 .other {
+  width: 60px;
+}
+
+.other:hover {
   width: 70px;
-  margin: 10px;
+  transition: all 0.5s;
 }
 
 .center {
