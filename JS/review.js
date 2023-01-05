@@ -20,13 +20,16 @@
 
 // $('.centerwrap').animate({scrollTop:[스크롤되는 위치]}, [스크롤 속도]);
 
-$('.centerwrap').ready(function(){
-  $('.centerwrap').animate({scrollTop:($('.centerwrap').height())}, 15000);
+const scrollbox = $('.centerwrap');
+const upbtn = $('.upbtn');
+
+scrollbox.ready(function(){
+  scrollbox.animate({scrollTop:(scrollbox.height())}, 15000);
 })
 
 
 // $('.upbtn').on('click', scrollTop(0));
 
-$('.centerwrap').on('click', function () {
-  $('.centerwrap').animate({ scrollTop: 312 }, 300);
+upbtn.on('click', function () {
+  scrollbox.animate({ scrollTop: 312 }, 300);
 });
