@@ -1,7 +1,7 @@
 //지도 설정
 const mapContainer = document.getElementById('map'),
 	mapOption = { 
-	    center: new kakao.maps.LatLng(37.53839383473284, 127.12754558204412),	// 지도의 중심 좌표(임의 설정)
+	    center: new kakao.maps.LatLng(37.53839383473284, 127.12754558204412),	// 지도의 중심 좌표
 	    level: 3					// 지도의 확대 레벨(임의 설정)
 	};
     
