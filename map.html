@@ -6,8 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>1DayClass</title>
   <link rel="shortcut icon" type="image/x-icon" href="img/icon.png">
-  <link rel="stylesheet" href="CSS/calendar.css">
+  <link rel="stylesheet" href="CSS/map.css">
   <script src="https://kit.fontawesome.com/75fd8fba08.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=4ec22412ef3bfee571629165c4ac397d"></script>
 </head>
 <body>
 
@@ -31,7 +32,7 @@
       <div class="center">
         <div class="centerwrap">
           <div class="map">
-            <img src="img/map.png">
+            <div id="map" style="width:650px; height:390px;"></div>
           </div>
           <div class="addr">
             <h1>국제컴퓨터아트학원 천호캠퍼스<br>
@@ -53,6 +54,6 @@
   </div>
 
   <script src="https://code.jquery.com/jquery-3.6.2.min.js" integrity="sha256-2krYZKh//PcchRtd+H+VyyQoZ/e3EcrkxhM8ycwASPA=" crossorigin="anonymous"></script>
-  <script src="JS/calendar.js"></script>
+  <script src="JS/map.js"></script>
 </body>
 </html>
