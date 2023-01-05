@@ -1,23 +1,18 @@
-//지도 설정
-const mapContainer = document.getElementById('map'),
-	mapOption = { 
-	    center: new kakao.maps.LatLng(37.53839383473284, 127.12754558204412),	// 지도의 중심 좌표
-	    level: 3					// 지도의 확대 레벨(임의 설정)
-	};
-    
-//설정한 지도 생성
-const map = new kakao.maps.Map(mapContainer, mapOption);
+var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
+    mapOption = { 
+        center: new kakao.maps.LatLng(37.53839383473284, 127.12754558204412), // 지도의 중심좌표
+        level: 3 // 지도의 확대 레벨
+    };
 
-//마커 초기화(초기화 시 지도에 미리 지정 가능 : 카카오맵 API 문서 참조)
-const marker = new kakao.maps.Marker();
+var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
 
-//카카오맵 클릭 이벤트 추가
-kakao.maps.event.addListener(map, 'click', (mouseEvent) => {
-	//클릭한 위도, 경도 정보 불러오기
-	const latlng = mouseEvent.latLng;
-	//마커 위치를 클릭한 위치로 이동
-	marker.setPosition(latlng);
-	marker.setMap(map);
-	
-	alert(`위도 : ${latlng.getLat()}, 경도 : ${latlng.getLng()}`);
+// 마커가 표시될 위치입니다 
+var markerPosition  = new kakao.maps.LatLng(37.53839383473284, 127.12754558204412); 
+
+// 마커를 생성합니다
+var marker = new kakao.maps.Marker({
+    position: markerPosition
 });
+
+// 마커가 지도 위에 표시되도록 설정합니다
+marker.setMap(map);
