@@ -32,7 +32,9 @@ scrollbox.ready(function(){
 })
 
 upbtn.on('click', function(){
+  scrollbox.stop();
   scrollbox.animate({scrollTop : 0});
+  scrollbox.animate({scrollTop:(scrollbox.height())}, 15000);
 });
 
 // $('.upbtn').on('click', scrollTop(0));
