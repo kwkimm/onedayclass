@@ -108,7 +108,7 @@ html {
   background: ivory;
   width: 900px;
   height: 500px;
-  
+  position: relative;
 }
 
 .centerwrap {
@@ -118,6 +118,12 @@ html {
   margin: auto;
   padding-top: 50px;
   overflow-y: scroll;
+  -ms-overflow-style: none; /* IE, Edge */
+  scrollbar-width: none; /* Firefox */
+}
+  /* 스크롤바 숨기기 위 2줄, 아래 1줄 */
+.centerwrap::-webkit-scrollbar {
+  display: none;  /* Chrome, Safari, Opera */
 }
 
 .revwrap {
@@ -125,6 +131,22 @@ html {
   height: 120px;
   width: 90%;
   margin-bottom: 70px;
+}
+
+.upbtn {
+  font-size: 40px;
+  color:lightcoral;
+  position: absolute;
+  display: flex;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer;
+}
+
+.upbtn:hover {
+  font-size: 50px;
+  color:lightblue;
+  transition: all 0.7s;
 }
 
 .pic {
