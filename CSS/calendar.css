@@ -38,6 +38,11 @@ html {
   font-size: 100px;
 }
 
+.headtext:hover {
+  color: rgb(212, 180, 1);
+  transition: all 0.5s;
+}
+
 .header img {
   border-radius: 25px;
   width: 230px;

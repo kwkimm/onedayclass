@@ -47,6 +47,11 @@ html {
   opacity: 0.7;
 }
 
+.headtext:hover {
+  color: rgb(212, 180, 1);
+  transition: all 0.5s;
+}
+
 .content {
   text-align: center;
   display: flex;

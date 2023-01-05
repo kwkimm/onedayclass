@@ -93,7 +93,50 @@ html {
   background: ivory;
   width: 900px;
   height: 500px;
-  padding-top: 10px;
+  
+}
+
+.centerwrap {
+  /* border: 1px solid black; */
+  width: 800px;
+  height: 100%;
+  margin: auto;
+  padding-top: 50px;
+  overflow-y: scroll;
+}
+
+.revwrap {
+  /* border: 1px solid black; */
+  height: 120px;
+  width: 90%;
+  margin-bottom: 70px;
+}
+
+.pic {
+  float: left;
+  display: inline;
+  /* border: 1px solid black; */
+  height: 120px;
+  width: 150px;
+}
+
+.pic img {
+  width: 80px;
+}
+
+.name {
+  /* border: 1px solid black; */
+  font-size: 22px;
+}
+
+.rev1 {
+  /* border: 1px solid black; */
+  clear: both;
+  text-align: left;
+  width: 500px;
+  height: 120px;
+  font-size: 20px;
+  padding-top: 30px;
 }
 
 ul {

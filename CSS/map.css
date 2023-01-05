@@ -47,14 +47,15 @@ html {
   opacity: 0.7;
 }
 
+.headtext:hover {
+  color: rgb(212, 180, 1);
+  transition: all 0.5s;
+}
+
 .content {
   text-align: center;
   display: flex;
   justify-content: space-between
-}
-
-.directionMap {
-  padding-top: 10px;
 }
 
 .content div {
@@ -92,7 +93,6 @@ html {
   background: ivory;
   width: 900px;
   height: 500px;
-
 }
 
 .centerwrap {

@@ -68,6 +68,46 @@ html {
   display: block;
 }
 
+.cslidewrap {
+  width: 850px;
+  height: 480px;
+  overflow-y: scroll;
+}
+
+.cslide1,
+.cslide2,
+.cslide3 {
+  width: 100%;
+  height: 100%;
+  line-height: 400px;
+  /* border: 1px solid black; */
+}
+
+.cslide1 img,
+.cslide2 img,
+.cslide3 img {
+  border: 1px solid rgb(168, 196, 13);
+  border-radius: 25px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cslide3 img::after {
+  content: '';
+  clear: both;
+}
+
+.ul {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.cimg {
+  border-radius: 25px;
+  width: 300px;
+  border: 1px solid black;
+}
+
 .lnav,
 .rnav {
   border: 1px solid rgb(168, 196, 13);
