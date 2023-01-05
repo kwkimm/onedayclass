@@ -23,13 +23,17 @@
 const scrollbox = $('.centerwrap');
 const upbtn = $('.upbtn');
 
+// upbtn.on('click', function () {
+//   scrollbox.scrollTop(0);
+// });
+
 scrollbox.ready(function(){
   scrollbox.animate({scrollTop:(scrollbox.height())}, 15000);
 })
 
+upbtn.click(function(){
+  scrollbox.animate({scrollTop : 0});
+});
 
 // $('.upbtn').on('click', scrollTop(0));
 
-upbtn.on('click', function () {
-  scrollbox.animate({ scrollTop: 312 }, 300);
-});
