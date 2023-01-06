@@ -121,6 +121,9 @@ html {
   width: 800px;
   height: 90%;
   margin: auto;
+  margin-top: 15px;
+  /* display: flex;
+  align-items: center; */
   /* padding-top: 50px; */
 }
 
