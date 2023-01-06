@@ -3,7 +3,7 @@ let no = 1;
 const wrap = $('.wrap');
 
 
-$('.prev').on('click', function() {
+$('.prevbtn').on('click', function() {
   
   if(no > 1){
     wrap.css('transform', `translateX(-${no-2}00vw)`);
@@ -13,9 +13,9 @@ $('.prev').on('click', function() {
 });
 
 
-$('.next').on('click', function() {
+$('.nextbtn').on('click', function() {
 
-  if(no < 4) {
+  if(no < 5) {
     wrap.css('transform', `translateX(-${no}00vw)`);
     no++;
   }

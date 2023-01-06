@@ -25,7 +25,7 @@ html {
 
 .wrap {
   /* border: 1px solid black; */
-  width: 400vw;
+  width: 500vw;
   margin: auto;
   display: flex;
   transition: all 1s;
@@ -43,7 +43,7 @@ html {
   object-fit: contain;
 }
 
-.prev {
+.prevbtn {
   position: absolute;
   top: 50%;
   left: 20%;
@@ -53,9 +53,9 @@ html {
   cursor: pointer;
 }
 
-.prev:hover,
-.next:hover,
-.home:hover {
+.prevbtn:hover,
+.nextbtn:hover,
+.homebtn:hover {
   color: darkgray;
   font-size: 70px;
   background-color:transparent;
@@ -63,7 +63,7 @@ html {
 }
 
 
-.next {
+.nextbtn {
   position: absolute;
   top: 50%;
   right: 20%;
@@ -73,7 +73,7 @@ html {
   cursor: pointer;
 }
 
-.home {
+.homebtn {
   position: absolute;
   bottom: 0;
   right: 20%;
